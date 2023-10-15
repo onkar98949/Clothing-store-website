@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+    <div class="nav">
+        <div class="logo">
+           <img src="/img/logo.jpg" alt="">
+        </div>
+        <div class="nav-links">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Categories</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="product-container">
+            <div class="product">
+                <img src="/img/product1.jpeg" alt="">
+                <h1>T-shirt</h1>
+                <p>Price:- 400</p>
+                <button onclick="addToCart('/img/product1.jpeg','T-shirt',400)">Add To cart</button>
+            </div>
+    
+            <div class="product">
+                <img src="/img/product2.jpeg" alt="">
+                <h1>T-shirt</h1>
+                <p>Price:- 500</p>
+                <button onclick="addToCart('/img/product2.jpeg','T-shirt',500)">Add To cart</button>
+            </div>
+    
+            <div class="product">
+                <img src="/img/product3.jpeg" alt="">
+                <h1>Jeans</h1>
+                <p>Price:- 800</p>
+                <button onclick="addToCart('/img/product3.jpeg','Jeans',800)">Add To cart</button>
+            </div>
+    
+            <div class="product">
+                <img src="/img/product4.jpeg" alt="">
+                <h1>Salwar</h1>
+                <p>Price:- 1200</p>
+                <button onclick="addToCart('/img/product4.jpeg','Salwar',1200)">Add To cart</button>
+            </div>
+        </div>
+ 
+        <div class="cart">
+            <h2>CART</h2>
+            <ul class="cart-items">
+                 <!-- ITEMS -->
+            </ul>
+        </div>
+    </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
